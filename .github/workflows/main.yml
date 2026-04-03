@@ -45,3 +45,7 @@ jobs:
       - name: Describe Meta Data of one app
         run: >
           anypoint-cli-v4 runtime-mgr:application:describe 8872a819-75d4-4b55-a2d5-39b362371834 --environment Sandbox
+
+      - name: Lists all async APIs in Exchange
+        run: >
+          anypoint-cli-v4 exchange:asset:list --organizationId 9e58d8a9-658a-40c0-8954-e98759d6556e --o json
