@@ -48,4 +48,4 @@ jobs:
 
       - name: Lists all async APIs in Exchange
         run: >
-          anypoint-cli-v4 exchange:asset:list --organizationId 9e58d8a9-658a-40c0-8954-e98759d6556e -o json
+          anypoint-cli-v4 exchange:asset:list --organizationId 9e58d8a9-658a-40c0-8954-e98759d6556e --output json
